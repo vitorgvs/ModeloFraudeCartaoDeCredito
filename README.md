@@ -1,13 +1,26 @@
-# Previsão do Preço do Ouro 🪙📈
+# 🔐 Detecção de Fraude em Cartões de Crédito
 
-Este projeto utiliza modelos de regressão para prever o preço do ouro com base em variáveis econômicas.
+Este projeto aplica técnicas de ciência de dados para detectar transações fraudulentas em cartões de crédito, utilizando uma base de dados transacional e processamento eficiente com **DuckDB** e **Pandas**.
 
-## 📊 Modelos Utilizados
-- Lasso Regression (R² médio: 0.9975 (± 0.0017) | MAE médio: 0.28 (± 0.13)) 
-- Validação cruzada K-Fold
-- Engenharia de atributos (rolling mean, std...)
+---
 
-## 🔍 Resultados
-O modelo se mostrou robusto e consistente durante a validação cruzada, apresentando bom desempenho e generalização sem overfitting.
+## 📌 Objetivo
 
+Desenvolver um modelo de classificação capaz de identificar transações fraudulentas com alta precisão e recall, utilizando técnicas de pré-processamento, balanceamento de classes e validação cruzada.
 
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+- [Python](https://www.python.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [DuckDB](https://duckdb.org/)
+- [scikit-learn](https://scikit-learn.org/)
+- [Matplotlib](https://matplotlib.org/) / [Seaborn](https://seaborn.pydata.org/)
+
+---
+
+## 📊 Desempenho do Modelo
+
+- **Precisão (Precision):** 0.95  
+- **Revocação (Recall):** 0.88  
